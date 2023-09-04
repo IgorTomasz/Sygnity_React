@@ -20,7 +20,7 @@ let handleSubmit = async (e) => {
 
 
   try{
-    const promise = fetch('https://localhost:7205/api/NextTask',{
+    const promise = fetch('https://localhost:7205/count',{
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify(params)
@@ -41,7 +41,7 @@ let handleSubmit = async (e) => {
 
 let handleView = async (e) => {
   try{
-    const promise = fetch('https://localhost:7205/api/NextTask',{
+    const promise = fetch('https://localhost:7205/giveLast',{
       method: 'GET',
     });
 
