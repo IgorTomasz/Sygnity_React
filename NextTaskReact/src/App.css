@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+  width: 500px;
+  height: 500px;
+  background-color:beige;
+  border: 2px solid black;
+  border-radius: 5px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+body{
+  background-color:azure;
+}
+
+.formDiv{
+  margin-top: 10px;
+}
+
+.dateInp{
+  width: 200px;
+  border-radius: 5px;
+}
+
+.numInp{
+  width: 200px;
+  border-radius: 5px;
+}
+
+.message {
+  border: 2px solid;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  width: 480px;
+  background-color:bisque;
+  padding: auto;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.message:empty{
+  border: 0px;
+}
+
+button[type=submit]{
+  border-radius: 10px;
+  width: 150px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+select{
+  width: 200px;
+  border-radius: 5px;
+}
